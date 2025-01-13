@@ -1,8 +1,8 @@
 "use client";
 import { useQuery } from "@tanstack/react-query";
-import { client } from "utils/client";
+import { client } from "./apiClient";
 
-const GetHello = () => {
+const getHello = () => {
   return useQuery({
     queryKey: ["hello"],
     queryFn: async () => {
@@ -13,7 +13,7 @@ const GetHello = () => {
 };
 
 export default function Home() {
-  const { data, error } = GetHello();
+  const { data, error } = getHello();
   if (error) return <p>Error</p>;
 
   if (!data?.message) return <p>Loading...</p>;
