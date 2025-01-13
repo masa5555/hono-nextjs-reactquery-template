@@ -1,0 +1,25 @@
+{
+  "name": "nextjs-hono-vercel-template",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "biome lint"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.64.0",
+    "hono": "^4.6.16",
+    "next": "^15.1.4",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@hono/zod-validator": "^0.4.2",
+    "@types/node": "22.10.5",
+    "@types/react": "19.0.5",
+    "@types/react-dom": "19.0.3",
+    "typescript": "^5.7.3"
+  }
+}
