@@ -5,3 +5,7 @@
 - Zod
 - React Query
 - Biome
+
+# TODO
+- Tailwind CSS
+- UIコンポーネント
