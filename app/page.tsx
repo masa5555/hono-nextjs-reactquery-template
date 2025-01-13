@@ -13,8 +13,8 @@ const GetHello = () => {
 };
 
 export default function Home() {
-  const { data } = GetHello();
-  if (!data?.status) return <p>Error</p>;
+  const { data, error } = GetHello();
+  if (error) return <p>Error</p>;
 
   if (!data?.message) return <p>Loading...</p>;
 
