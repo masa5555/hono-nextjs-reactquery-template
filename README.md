@@ -48,12 +48,18 @@ extensions.json
 ```
 
 # TODO
+- エラーハンドリング
+  - https://zenn.dev/hacobell_dev/articles/typescript-neverthrow-csv-error-handling
 - Tailwind CSS
+screens: {
+      pc: "668px",
+    },
+- Suspenseを使った場合と使わない場合の例を示す
 - UIコンポーネント
   - shadcn
   - https://21st.dev/
 - URLパラメータ
-  -　https://nuqs.47ng.com/
+  -　https://nuqs.47ng.com/ https://nuqs.47ng.com/playground/pagination
 - 決済
   - Stripe
   - https://stripealternatives.com/
